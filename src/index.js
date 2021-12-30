@@ -1,10 +1,12 @@
 const express = require('express');
 const app  = express();
 
+const productRoutes = require('./routes/products.routes');
+
 require('./database');
 
-app.get('/', (req, res) => {
-    res.send(`Hello World`);
-});
+app.use(express.json());
+
+app.use(productRoutes);
 
 app.listen(3000);
