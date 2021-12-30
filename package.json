@@ -19,7 +19,8 @@
   "homepage": "https://github.com/jam0147/mongoose-paginate#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "mongoose": "^6.1.4"
+    "mongoose": "^6.1.4",
+    "mongoose-paginate-v2": "^1.4.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
